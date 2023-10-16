@@ -68,3 +68,44 @@ body {
     background-color: #f0f0f0;
     padding: 20px;
 }
+
+.module {
+    flex-basis: 32%;
+}
+
+.module > h3 {
+    margin: 0px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: #1867c0;
+}
+
+.module > ul {
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+}
+
+.module > ul > li {
+    padding: 7px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.module > ul > li > a {
+    display: flex;
+    text-decoration: none;
+    color: #222;
+}
+
+.module > ul > li:hover {
+    background-color: #eee;
+}
+
+.modules {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
