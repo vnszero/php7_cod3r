@@ -15,10 +15,10 @@
     <main class="main">
         <div class="content">
             <nav class="modules">
-                <div class="module">
+                <div class="module green">
                     <h3>Módulo 01</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
+                        <li><a href="exercice.php">Exercício A</a></li>
                         <li><a href="#">Exercício B</a></li>
                         <li><a href="#">Exercício C</a></li>
                     </ul>
@@ -27,7 +27,7 @@
         </div>
     </main>
     <footer class="footer">
-        COD3R & ALUNOS @ 2023
+        COD3R & ALUNOS @ <?= date('D M Y'); ?>
     </footer>
 </body>
 </html>
