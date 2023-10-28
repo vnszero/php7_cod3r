@@ -16,13 +16,27 @@
         <div class="content">
             <nav class="modules">
                 <div class="module green">
-                    <h3>Módulo 01</h3>
+                    <h3>Módulo Básico</h3>
                     <ul>
                         <li><a href="exercice.php?dir=basic&file=hello">Hello PHP</a></li>
                         <li><a href="exercice.php?dir=basic&file=html">Integration HTML</a></li>
                         <li><a href="exercice.php?dir=basic&file=css">Integration CSS</a></li>
                         <li><a href="exercice.php?dir=basic&file=notes">Notes PHP</a></li>
                         <li><a href="exercice.php?dir=basic&file=challenge">Desafio</a></li>
+                    </ul>
+                </div>
+                <div class="module green">
+                    <h3>Módulo Tipos</h3>
+                    <ul>
+                        <li><a href="exercice.php?dir=types&file=int">Inteiros</a></li>    
+                        <li><a href="exercice.php?dir=types&file=float">Decimais</a></li>    
+                        <li><a href="exercice.php?dir=types&file=arithmetic">Operações Aritméticas</a></li>    
+                    </ul>
+                </div>
+                <div class="module green">
+                    <h3>Módulo Algorítmos</h3>
+                    <ul>
+                        <li><a href="exercice.php?dir=algorithms&file=bubble">Bubble Sort</a></li>
                     </ul>
                 </div>
             </nav>
