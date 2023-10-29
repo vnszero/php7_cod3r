@@ -31,6 +31,9 @@
                         <li><a href="exercice.php?dir=types&file=int">Inteiros</a></li>    
                         <li><a href="exercice.php?dir=types&file=float">Decimais</a></li>    
                         <li><a href="exercice.php?dir=types&file=arithmetic">Operações Aritméticas</a></li>    
+                        <li><a href="exercice.php?dir=types&file=challenge">Desafio Precedencia</a></li>    
+                        <li><a href="exercice.php?dir=types&file=string">Strings</a></li>    
+                        <li><a href="exercice.php?dir=types&file=string_challenge">String challenge</a></li>    
                     </ul>
                 </div>
                 <div class="module green">

@@ -1,4 +1,4 @@
-<div class="title">Bubble Sort</div>
+<div class="title">Aritiméticas</div>
 
 <?php
 echo 1 + 1, '<br>';
