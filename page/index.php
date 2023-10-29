@@ -34,6 +34,8 @@
                         <li><a href="exercice.php?dir=types&file=challenge">Desafio Precedencia</a></li>    
                         <li><a href="exercice.php?dir=types&file=string">Strings</a></li>    
                         <li><a href="exercice.php?dir=types&file=string_challenge">String challenge</a></li>    
+                        <li><a href="exercice.php?dir=types&file=bool">Booleanos</a></li>    
+                        <li><a href="exercice.php?dir=types&file=convertion">Conversões</a></li>    
                     </ul>
                 </div>
                 <div class="module green">
