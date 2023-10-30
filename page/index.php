@@ -43,6 +43,8 @@
                     <ul>
                         <li><a href="exercice.php?dir=variables&file=var1">Variáveis #1</a></li>
                         <li><a href="exercice.php?dir=variables&file=equation_challenge">Fibonacci O(1)</a></li>
+                        <li><a href="exercice.php?dir=variables&file=assign">Atribuições</a></li>
+                        <li><a href="exercice.php?dir=variables&file=formatting">Interpolação ou Formatting String</a></li>
                     </ul>
                 </div>
                 <div class="module green">
