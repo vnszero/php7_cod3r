@@ -39,6 +39,13 @@
                     </ul>
                 </div>
                 <div class="module green">
+                    <h3>Módulo Variáveis</h3>
+                    <ul>
+                        <li><a href="exercice.php?dir=variables&file=var1">Variáveis #1</a></li>
+                        <li><a href="exercice.php?dir=variables&file=equation_challenge">Fibonacci O(1)</a></li>
+                    </ul>
+                </div>
+                <div class="module green">
                     <h3>Módulo Algorítmos</h3>
                     <ul>
                         <li><a href="exercice.php?dir=algorithms&file=bubble">Bubble Sort</a></li>
