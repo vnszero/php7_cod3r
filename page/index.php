@@ -45,6 +45,10 @@
                         <li><a href="exercice.php?dir=variables&file=equation_challenge">Fibonacci O(1)</a></li>
                         <li><a href="exercice.php?dir=variables&file=assign">Atribuições</a></li>
                         <li><a href="exercice.php?dir=variables&file=formatting">Interpolação ou Formatting String</a></li>
+                        <li><a href="exercice.php?dir=variables&file=dinamic_variables">Variaveis Variaveis</a></li>
+                        <li><a href="exercice.php?dir=variables&file=challenge_var">Desafio Variaveis Variaveis</a></li>
+                        <li><a href="exercice.php?dir=variables&file=pointer">Variavel por referencia</a></li>
+                        <li><a href="exercice.php?dir=variables&file=define">Constantes</a></li>
                     </ul>
                 </div>
                 <div class="module green">
