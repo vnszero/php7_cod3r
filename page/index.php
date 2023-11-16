@@ -16,30 +16,13 @@
         <div class="content">
             <nav class="modules">
                 <div class="module green">
-                    <h3>Módulo Básico</h3>
+                    <h3>4. Módulo Controle</h3>
                     <ul>
-                        <li><a href="exercice.php?dir=basic&file=hello">Hello PHP</a></li>
-                        <li><a href="exercice.php?dir=basic&file=html">Integration HTML</a></li>
-                        <li><a href="exercice.php?dir=basic&file=css">Integration CSS</a></li>
-                        <li><a href="exercice.php?dir=basic&file=notes">Notes PHP</a></li>
-                        <li><a href="exercice.php?dir=basic&file=challenge">Desafio</a></li>
+                        <li><a href="exercice.php?dir=control&file=if_else">if_else</a></li>
                     </ul>
                 </div>
                 <div class="module green">
-                    <h3>Módulo Tipos</h3>
-                    <ul>
-                        <li><a href="exercice.php?dir=types&file=int">Inteiros</a></li>    
-                        <li><a href="exercice.php?dir=types&file=float">Decimais</a></li>    
-                        <li><a href="exercice.php?dir=types&file=arithmetic">Operações Aritméticas</a></li>    
-                        <li><a href="exercice.php?dir=types&file=challenge">Desafio Precedencia</a></li>    
-                        <li><a href="exercice.php?dir=types&file=string">Strings</a></li>    
-                        <li><a href="exercice.php?dir=types&file=string_challenge">String challenge</a></li>    
-                        <li><a href="exercice.php?dir=types&file=bool">Booleanos</a></li>    
-                        <li><a href="exercice.php?dir=types&file=convertion">Conversões</a></li>    
-                    </ul>
-                </div>
-                <div class="module green">
-                    <h3>Módulo Variáveis</h3>
+                    <h3>3. Módulo Variáveis</h3>
                     <ul>
                         <li><a href="exercice.php?dir=variables&file=var1">Variáveis #1</a></li>
                         <li><a href="exercice.php?dir=variables&file=equation_challenge">Fibonacci O(1)</a></li>
@@ -52,7 +35,30 @@
                     </ul>
                 </div>
                 <div class="module green">
-                    <h3>Módulo Algorítmos</h3>
+                    <h3>2. Módulo Tipos</h3>
+                    <ul>
+                        <li><a href="exercice.php?dir=types&file=int">Inteiros</a></li>    
+                        <li><a href="exercice.php?dir=types&file=float">Decimais</a></li>    
+                        <li><a href="exercice.php?dir=types&file=arithmetic">Operações Aritméticas</a></li>    
+                        <li><a href="exercice.php?dir=types&file=challenge">Desafio Precedencia</a></li>    
+                        <li><a href="exercice.php?dir=types&file=string">Strings</a></li>    
+                        <li><a href="exercice.php?dir=types&file=string_challenge">String challenge</a></li>    
+                        <li><a href="exercice.php?dir=types&file=bool">Booleanos</a></li>    
+                        <li><a href="exercice.php?dir=types&file=convertion">Conversões</a></li>    
+                    </ul>
+                </div>
+                <div class="module green">
+                    <h3>1. Módulo Básico</h3>
+                    <ul>
+                        <li><a href="exercice.php?dir=basic&file=hello">Hello PHP</a></li>
+                        <li><a href="exercice.php?dir=basic&file=html">Integration HTML</a></li>
+                        <li><a href="exercice.php?dir=basic&file=css">Integration CSS</a></li>
+                        <li><a href="exercice.php?dir=basic&file=notes">Notes PHP</a></li>
+                        <li><a href="exercice.php?dir=basic&file=challenge">Desafio</a></li>
+                    </ul>
+                </div>
+                <div class="module green">
+                    <h3>0. Módulo Algorítmos</h3>
                     <ul>
                         <li><a href="exercice.php?dir=algorithms&file=bubble">Bubble Sort</a></li>
                     </ul>
