@@ -18,7 +18,8 @@
                 <div class="module green">
                     <h3>4. Módulo Controle</h3>
                     <ul>
-                        <li><a href="exercice.php?dir=control&file=if_else">if_else</a></li>
+                        <li><a href="exercice.php?dir=control&file=if_else">if else</a></li>
+                        <li><a href="exercice.php?dir=control&file=relational_operators">op relacionais</a></li>
                     </ul>
                 </div>
                 <div class="module green">
