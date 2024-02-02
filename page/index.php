@@ -20,6 +20,7 @@
                     <ul>
                         <li><a href="exercice.php?dir=control&file=if_else">if else</a></li>
                         <li><a href="exercice.php?dir=control&file=relational_operators">op relacionais</a></li>
+                        <li><a href="exercice.php?dir=control&file=desafio_pi">Desafio PI</a></li>
                     </ul>
                 </div>
                 <div class="module green">
