@@ -45,12 +45,3 @@ var_dump(!!0);
 var_dump(!!"");
 var_dump(!!" ");
 ?>
-
-<style>
-    p{
-        margin-bottom: 0
-    }
-    hr{
-        margin-top: 0
-    }
-</style>
