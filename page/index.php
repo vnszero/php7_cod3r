@@ -24,6 +24,8 @@
                         <li><a href="exercice.php?dir=control&file=logical_operators">Operadores Lógicos</a></li>
                         <li><a href="exercice.php?dir=control&file=logical_challenge">Desafio Op Lógicos</a></li>
                         <li><a href="exercice.php?dir=control&file=ternary_operator">Operador Ternário</a></li>
+                        <li><a href="exercice.php?dir=control&file=switch">Switch</a></li>
+                        <li><a href="exercice.php?dir=control&file=switch_challenge">Desafio Switch</a></li>
                     </ul>
                 </div>
                 <div class="module green">
