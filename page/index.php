@@ -21,6 +21,7 @@
                         <li><a href="exercice.php?dir=array&file=basics">Fundamentos</a></li>
                         <li><a href="exercice.php?dir=array&file=maps">Mapeamento</a></li>
                         <li><a href="exercice.php?dir=array&file=calendar_challenge">Calendário</a></li>
+                        <li><a href="exercice.php?dir=array&file=operations">Operações</a></li>
                     </ul>
                 </div>
                 <div class="module green">
