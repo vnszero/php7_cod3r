@@ -16,6 +16,12 @@
         <div class="content">
             <nav class="modules">
                 <div class="module green">
+                    <h3>5. Array</h3>
+                    <ul>
+                        <li><a href="exercice.php?dir=array&file=basics">Fundamentos</a></li>
+                    </ul>
+                </div>
+                <div class="module green">
                     <h3>4. Módulo Controle</h3>
                     <ul>
                         <li><a href="exercice.php?dir=control&file=if_else">if else</a></li>
