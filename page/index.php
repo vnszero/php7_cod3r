@@ -23,6 +23,7 @@
                         <li><a href="exercice.php?dir=array&file=calendar_challenge">Calendário</a></li>
                         <li><a href="exercice.php?dir=array&file=operations">Operações</a></li>
                         <li><a href="exercice.php?dir=array&file=sort_challenge">Desafio Sorteio</a></li>
+                        <li><a href="exercice.php?dir=array&file=multidimension">Array Multi</a></li>
                     </ul>
                 </div>
                 <div class="module green">
