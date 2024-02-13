@@ -16,6 +16,17 @@
         <div class="content">
             <nav class="modules">
                 <div class="module green">
+                    <h3>6. Loops</h3>
+                    <ul>
+                        <li><a href="exercice.php?dir=loops&file=for">For</a></li>
+                        <li><a href="exercice.php?dir=loops&file=for_challenge">Desafio For</a></li>
+                        <li><a href="exercice.php?dir=loops&file=foreach">Foreach</a></li>
+                        <li><a href="exercice.php?dir=loops&file=break_continue">Break e Continue</a></li>
+                        <li><a href="exercice.php?dir=loops&file=print_challenge">Desafio Impressão</a></li>
+                        <li><a href="exercice.php?dir=loops&file=while">While e Do While</a></li>
+                    </ul>
+                </div>
+                <div class="module green">
                     <h3>5. Array</h3>
                     <ul>
                         <li><a href="exercice.php?dir=array&file=basics">Fundamentos</a></li>
