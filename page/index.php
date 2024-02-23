@@ -24,6 +24,8 @@
                         <li><a href="exercice.php?dir=loops&file=break_continue">Break e Continue</a></li>
                         <li><a href="exercice.php?dir=loops&file=print_challenge">Desafio Impressão</a></li>
                         <li><a href="exercice.php?dir=loops&file=while">While e Do While</a></li>
+                        <li><a href="exercice.php?dir=loops&file=table_challenge">Desafio Tabela</a></li>
+                        <li><a href="exercice.php?dir=loops&file=form_table_challenge">Desafio Formulário Tabela</a></li>
                     </ul>
                 </div>
                 <div class="module green">
