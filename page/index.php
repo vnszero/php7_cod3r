@@ -16,6 +16,12 @@
         <div class="content">
             <nav class="modules">
                 <div class="module green">
+                    <h3>7. Funções</h3>
+                    <ul>
+                        <li><a href="exercice.php?dir=functions&file=basics">Fundamentos</a></li>
+                    </ul>
+                </div>
+                <div class="module green">
                     <h3>6. Loops</h3>
                     <ul>
                         <li><a href="exercice.php?dir=loops&file=for">For</a></li>
