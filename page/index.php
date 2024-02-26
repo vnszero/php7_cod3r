@@ -19,6 +19,9 @@
                     <h3>7. Funções</h3>
                     <ul>
                         <li><a href="exercice.php?dir=functions&file=basics">Fundamentos</a></li>
+                        <li><a href="exercice.php?dir=functions&file=args_return">Argumentos e Retorno</a></li>
+                        <li><a href="exercice.php?dir=functions&file=palindrome_challenge">Desafio Palindromo</a></li>
+                        <li><a href="exercice.php?dir=functions&file=variable_args">Argumentos Variáveis</a></li>
                     </ul>
                 </div>
                 <div class="module green">
