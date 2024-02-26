@@ -22,6 +22,8 @@
                         <li><a href="exercice.php?dir=functions&file=args_return">Argumentos e Retorno</a></li>
                         <li><a href="exercice.php?dir=functions&file=palindrome_challenge">Desafio Palindromo</a></li>
                         <li><a href="exercice.php?dir=functions&file=variable_args">Argumentos Variáveis</a></li>
+                        <li><a href="exercice.php?dir=functions&file=patters">Argumentos Padrões</a></li>
+                        <li><a href="exercice.php?dir=functions&file=formating_args">Fixando Tipos</a></li>
                     </ul>
                 </div>
                 <div class="module green">
