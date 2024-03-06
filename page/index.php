@@ -24,6 +24,12 @@
                         <li><a href="exercice.php?dir=functions&file=variable_args">Argumentos Variáveis</a></li>
                         <li><a href="exercice.php?dir=functions&file=patters">Argumentos Padrões</a></li>
                         <li><a href="exercice.php?dir=functions&file=formating_args">Fixando Tipos</a></li>
+                        <li><a href="exercice.php?dir=functions&file=anonymous">Função Anônima</a></li>
+                        <li><a href="exercice.php?dir=functions&file=clousure_callable">Clousure e Callable</a></li>
+                        <li><a href="exercice.php?dir=functions&file=recursive">Fatorial Recursivo</a></li>
+                        <li><a href="exercice.php?dir=functions&file=recursive_challenge">Desafio Recursivo</a></li>
+                        <li><a href="exercice.php?dir=functions&file=return_function">Retornando Função</a></li>
+                        <li><a href="exercice.php?dir=functions&file=map_filter">Map e Filter</a></li>
                     </ul>
                 </div>
                 <div class="module green">
