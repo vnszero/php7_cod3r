@@ -16,6 +16,19 @@
         <div class="content">
             <nav class="modules">
                 <div class="module green">
+                    <h3>8. Paradigma Orientação Objeto</h3>
+                    <ul>
+                        <li><a href="exercice.php?dir=classes_objects&file=basics">Fundamentos</a></li>
+                        <li><a href="exercice.php?dir=classes_objects&file=date_challenge">Desafio Data</a></li>
+                        <li><a href="exercice.php?dir=classes_objects&file=constructor_destructor">Construtor e Destrutor</a></li>
+                        <li><a href="exercice.php?dir=classes_objects&file=heritage">Herança</a></li>
+                        <li><a href="exercice.php?dir=classes_objects&file=encapsulation">Encapsulamento</a></li>
+                        <li><a href="exercice.php?dir=classes_objects&file=static">Membros Estáticos</a></li>
+                        <li><a href="exercice.php?dir=classes_objects&file=interface">Interface</a></li>
+                        <li><a href="exercice.php?dir=classes_objects&file=abstract">Classe Abstrata</a></li>
+                    </ul>
+                </div>
+                <div class="module green">
                     <h3>7. Funções</h3>
                     <ul>
                         <li><a href="exercice.php?dir=functions&file=basics">Fundamentos</a></li>
