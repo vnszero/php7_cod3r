@@ -31,6 +31,7 @@
                         <li><a href="exercice.php?dir=classes_objects&file=traits_01">Traits #01</a></li>
                         <li><a href="exercice.php?dir=classes_objects&file=traits_02">Traits #02</a></li>
                         <li><a href="exercice.php?dir=classes_objects&file=magic_methods">Métodos Mágicos</a></li>
+                        <li><a href="exercice.php?dir=classes_objects&file=polymorphism">Polimorfismo</a></li>
                     </ul>
                 </div>
                 <div class="module green">
