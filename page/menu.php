@@ -1,5 +1,14 @@
 <nav class="modules">
     <div class="module green">
+        <h3>11. Tratamento de erros</h3>
+        <ul>
+            <li><a href="exercice.php?dir=error_handling&file=try_catch">Try & Catch</a></li>
+            <li><a href="exercice.php?dir=error_handling&file=custom_errors">Erros Personalizados</a></li>
+            <li><a href="exercice.php?dir=error_handling&file=intdiv_challenge">Desafio intdiv</a></li>
+            <li><a href="exercice.php?dir=error_handling&file=error_handler">Error Handler</a></li>
+        </ul>
+    </div>
+    <div class="module green">
         <h3>10. Namespace</h3>
         <ul>
             <li><a href="exercice.php?dir=namespace&file=basics">Fundamentos</a></li>
