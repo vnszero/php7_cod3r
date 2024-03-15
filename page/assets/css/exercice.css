@@ -1,20 +1,20 @@
-hr {
-    margin-top: 0px;
-}
-
 .content {
     font-size: 2rem;
 }
 
 .content > p {
-    margin-bottom: 0px;
     font-weight: bold;
+    margin-bottom: 0px;
 }
 
 .content > .title {
+    border-bottom: 1px solid #999;
     font-size: 2.5rem;
     font-weight: 300;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #999;
     margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+hr {
+    margin-top: 0px;
 }
