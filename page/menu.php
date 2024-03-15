@@ -1,4 +1,11 @@
 <nav class="modules">
+<div class="module green">
+        <h3>12. Sessão</h3>
+        <ul>
+            <li><a href="exercice.php?dir=session&file=basics">Fundamentos</a></li>
+            <li><a href="exercice.php?dir=session&file=handling_session">Gerindo Sessão</a></li>
+        </ul>
+    </div>
     <div class="module green">
         <h3>11. Tratamento de erros</h3>
         <ul>

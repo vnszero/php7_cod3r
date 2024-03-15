@@ -7,12 +7,22 @@ body {
     height: 100vh;
     margin: 0px;
     display: grid;
-    grid-template-rows: 420px 1fr 60px;
+    grid-template-rows: 120px 60px 1fr 60px;    
     grid-template-columns: 1fr;
     grid-template-areas: 
         "header"
+        "navigation"
         "main"
         "footer";
+}
+
+span.user {
+    color: #EEE;
+    flex-grow: 1;
+    font-size:1.2rem;
+    font-weight: 300;
+    justify-self: flex-start;
+    padding-left: 10px;
 }
 
 .content {
@@ -64,7 +74,7 @@ body {
 
 .main {
     grid-area: main;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 240px);
     background-color: #f0f0f0;
     padding: 20px;
 }
@@ -114,3 +124,24 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.navigation {
+    grid-area: "navigation";
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #555;
+}
+
+.navigation > a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 300;
+    font-size: 1.3rem;
+    background-color: #210af3;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.navigation > a.green { background-color: #4CAF50; }
+.navigation > a.red { background-color: #F44336; }
