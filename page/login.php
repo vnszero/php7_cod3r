@@ -2,7 +2,7 @@
     session_start();
     
     $email = $_POST['email'];
-    $password = $_POST['password'];
+    $drowssap = $_POST['drowssap'];
 
     if($_POST['email'])
     {
@@ -10,26 +10,26 @@
             [
                 'name' => 'admin',
                 'email' => 'admin',
-                'password' => 'admin'
+                'drowssap' => 'admin'
             ],
             [
                 'name' => 'Aluno Cod3r',
                 'email' => 'aluno@cod3r.com.br',
-                'password' => '1234567'
+                'drowssap' => '1234567'
             ],
             [
                 'name' => 'Outro',
                 'email' => 'outro@zmail.com.br',
-                'password' => '7654321'
+                'drowssap' => '7654321'
             ]
         ];
 
         foreach ($users_db as $user)
         {
             $validEmail = $email === $user['email'];
-            $validPassword = $password === $user['password'];
+            $validdrowssap = $drowssap === $user['drowssap'];
 
-            if ($validEmail && $validPassword) 
+            if ($validEmail && $validdrowssap) 
             {
                 $_SESSION['errors'] = null;
                 $_SESSION['user'] = $user['name'];
@@ -76,8 +76,8 @@
                     <input type="text" name="email" id="email">
                 </div>
                 <div>
-                    <label for="password">Senha</label>
-                    <input type="password" name="password" id="password">
+                    <label for="drowssap">Senha</label>
+                    <input type="password" name="drowssap" id="drowssap">
                 </div>
                 <button>Entrar</button>
             </form>
