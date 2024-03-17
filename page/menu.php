@@ -1,5 +1,11 @@
 <nav class="modules">
     <div class="module green">
+        <h3>14. Formulários</h3>
+        <ul>
+            <li><a href="exercice.php?dir=forms&file=forms">Formulário</a></li>
+        </ul>
+    </div>
+    <div class="module green">
         <h3>13. API</h3>
         <ul>
             <li><a href="exercice.php?dir=api&file=date01">Datas #01</a></li>
