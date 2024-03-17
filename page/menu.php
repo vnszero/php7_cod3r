@@ -6,6 +6,8 @@
             <li><a href="exercice.php?dir=api&file=date02">Datas #02</a></li>
             <li><a href="exercice.php?dir=api&file=write_file">Escrever em Arquivos (usar terminal)</a></li>
             <li><a href="exercice.php?dir=api&file=write_file">Ler em Arquivos (usar terminal)</a></li>
+            <li><a href="exercice.php?dir=api&file=upload">Upload de Arquivos</a></li>
+            <li><a href="exercice.php?dir=api&file=download">Download de Arquivos</a></li>
         </ul>
     </div>
     <div class="module green">
