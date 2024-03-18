@@ -2,10 +2,9 @@
 
 <?php
     print_r($_FILES);
-    echo "<br>preciso resolver problemas de permissão do XAMPP<br>";
     if($_FILES && $_FILES['file'])
     {
-        $directory = '/home/vini/Documentos/GitHub/php7_cod3r/page/files';
+        $directory = './files/';
         $file_name = $_FILES['file']['name'];
         $file = $directory . $file_name;
         $tmp = $_FILES['file']['tmp_name'];

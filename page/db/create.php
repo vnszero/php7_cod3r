@@ -5,7 +5,7 @@
     ini_set('display_errors', 1);
     
     require_once "connection.php";
-    $connection = newConnection();
+    $connection = newConnection(null);
     $sql = 'CREATE DATABASE IF NOT EXISTS curso_php';
 
     $result = $connection->query($sql);
