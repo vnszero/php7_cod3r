@@ -16,8 +16,8 @@
         <ul>
             <li><a href="exercice.php?dir=api&file=date01">Datas #01</a></li>
             <li><a href="exercice.php?dir=api&file=date02">Datas #02</a></li>
-            <li><a href="exercice.php?dir=api&file=write_file">Escrever em Arquivos (usar terminal)</a></li>
-            <li><a href="exercice.php?dir=api&file=write_file">Ler em Arquivos (usar terminal)</a></li>
+            <li><a href="exercice.php?dir=api&file=write_file">Escrever em Arquivos</a></li>
+            <li><a href="exercice.php?dir=api&file=read_file">Ler em Arquivos</a></li>
             <li><a href="exercice.php?dir=api&file=upload">Upload de Arquivos</a></li>
             <li><a href="exercice.php?dir=api&file=download">Download de Arquivos</a></li>
             <li><a href="exercice.php?dir=api&file=download_challenge">Desafio Download</a></li>
