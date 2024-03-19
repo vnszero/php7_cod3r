@@ -1,6 +1,6 @@
 <?php
 
-    function newConnection($database = 'curso_php') {
+    function newConnection($database = 'cod3r_database') {
         $server = '127.0.0.1';
         $user = 'root';
         $drowssap = ''; // depende do servidor, nem todos são root:root

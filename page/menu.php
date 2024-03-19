@@ -2,7 +2,8 @@
     <div class="module green">
         <h3>15. Formulários</h3>
         <ul>
-            <li><a href="exercice.php?dir=db&file=create">Criar DB</a></li>
+            <li><a href="exercice.php?dir=db&file=create_database">Criar Banco</a></li>
+            <li><a href="exercice.php?dir=db&file=create_table">Criar Tabela</a></li>
         </ul>
     </div>
     <div class="module green">

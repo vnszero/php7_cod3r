@@ -4,7 +4,7 @@
     require_once "connection.php";
 
     $connection = newConnection(null);
-    $sql = 'CREATE DATABASE IF NOT EXISTS curso_php';
+    $sql = 'CREATE DATABASE IF NOT EXISTS cod3r_database';
 
     $result = $connection->query($sql);
 
