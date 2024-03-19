@@ -1,10 +1,8 @@
-<div class="title">Criar Banco de Dados</div>
+<div class="title">Criar Banco</div>
 
 <?php
-    error_reporting(E_ALL);
-    ini_set('display_errors', 1);
-    
     require_once "connection.php";
+
     $connection = newConnection(null);
     $sql = 'CREATE DATABASE IF NOT EXISTS curso_php';
 
@@ -13,8 +11,8 @@
     if ($result)
     {
         echo "Sucesso :)";
-    }
-    else
+    } 
+    else 
     {
         echo "Erro: " . $connection->error;
     }
