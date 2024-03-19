@@ -4,6 +4,7 @@
         <ul>
             <li><a href="exercice.php?dir=db&file=create_database">Criar Banco</a></li>
             <li><a href="exercice.php?dir=db&file=create_table">Criar Tabela</a></li>
+            <li><a href="exercice.php?dir=db&file=insert01">Inserir Registro #01</a></li>
         </ul>
     </div>
     <div class="module green">
