@@ -1,10 +1,11 @@
 <nav class="modules">
     <div class="module green">
-        <h3>15. Formulários</h3>
+        <h3>15. Banco de Dados</h3>
         <ul>
             <li><a href="exercice.php?dir=db&file=create_database">Criar Banco</a></li>
             <li><a href="exercice.php?dir=db&file=create_table">Criar Tabela</a></li>
             <li><a href="exercice.php?dir=db&file=insert01">Inserir Registro #01</a></li>
+            <li><a href="exercice.php?dir=db&file=search">Buscar Registro</a></li>
         </ul>
     </div>
     <div class="module green">
