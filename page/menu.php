@@ -9,6 +9,7 @@
             <li><a href="exercice.php?dir=db&file=delete01">Deletar Registro #01</a></li>
             <li><a href="exercice.php?dir=db&file=delete02">Deletar Registro #02</a></li>
             <li><a href="exercice.php?dir=db&file=insert02">Inserir Registro #02</a></li>
+            <li><a href="exercice.php?dir=db&file=update">Atualizar Registro</a></li>
         </ul>
     </div>
     <div class="module green">

@@ -8,10 +8,10 @@
     {
         $errors = [];
 
-        // isset($_POST['name']) // construção equivalente
-        if(!filter_input(INPUT_POST, "name"))
+        // isset($_POST['_name']) // construção equivalente
+        if(!filter_input(INPUT_POST, "_name"))
         {
-            $errors['name'] = "Nome é Obrigatório";
+            $errors['_name'] = "Nome é Obrigatório";
         }
 
         if(filter_input(INPUT_POST, "birth-day"))
@@ -28,9 +28,9 @@
             $errors['email'] = "Email inválido";
         }
 
-        if (!filter_var($_POST['site'], FILTER_VALIDATE_URL))
+        if (!filter_var($_POST['_site'], FILTER_VALIDATE_URL))
         {
-            $errors['site'] = "Site inválido";
+            $errors['_site'] = "Site inválido";
         }
 
         $childrenConfig = ["options" => ["min_range"=>0, "max_range"=>20]];
@@ -56,10 +56,10 @@
 <form action="#" method="post">
     <div class="form-row">
         <div class="form-group col-md-8">
-            <label for="name">Nome</label>
-            <input type="text" class="form-control <?= $errors['name'] ? 'is-invalid' : '' ?>" id="name" name="name" placeholder="Nome" value="<?= $_POST['name'] ?>">
+            <label for="_name">Nome</label>
+            <input type="text" class="form-control <?= $errors['_name'] ? 'is-invalid' : '' ?>" id="_name" name="_name" placeholder="Nome" value="<?= $_POST['_name'] ?>">
             <div class="invalid-feedback">
-                <?= $errors['name'] ?>
+                <?= $errors['_name'] ?>
             </div>
         </div>
         <div class="form-group col-md-4">
@@ -79,10 +79,10 @@
             </div>
         </div>
         <div class="form-group col-md-6">
-            <label for="site">Site</label>
-            <input type="text" class="form-control <?= $errors['site'] ? 'is-invalid' : '' ?>" id="site" name="site" placeholder="Site" value="<?= $_POST['site'] ?>">
+            <label for="_site">Site</label>
+            <input type="text" class="form-control <?= $errors['_site'] ? 'is-invalid' : '' ?>" id="_site" name="_site" placeholder="Site" value="<?= $_POST['_site'] ?>">
             <div class="invalid-feedback">
-                <?= $errors['site'] ?>
+                <?= $errors['_site'] ?>
             </div>
         </div>
     </div>

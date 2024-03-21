@@ -1,7 +1,36 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<div class="title">Inserir #02</div>
+<div class="title">Atualizar Registro</div>
 
 <?php
+    require_once "connection.php";
+    $connection = newConnection();
+
+    if($_GET['code'])
+    {
+        $sql = "SELECT * FROM register WHERE id = ?";
+        $statement = $connection->prepare($sql);
+        $statement->bind_param("i", $_GET['code']);
+
+        if ($statement->execute())
+        {
+            $result = $statement->get_result();
+            if ($result->num_rows > 0)
+            {
+                $information = $result->fetch_assoc();
+                print_r($information);
+                if ($information['birth_day'])
+                {
+                    $date = new DateTime($information['birth_day']);
+                    $information['birth_day'] = $date->format('d/m/Y');
+                }
+                if ($information['wage'])
+                {
+                    $information['wage'] = str_replace(".", ",", $information['wage']);
+                }
+            }
+        }
+    }
+
     if(count($_POST) > 0)
     {
         $information = $_POST;
@@ -12,7 +41,7 @@
             $errors['_name'] = "Nome é Obrigatório";
         }
 
-        if(!isset($information['birth_day']))
+        if(isset($information['birth_day']))
         {
             $date = DateTime::createFromFormat('d/m/Y', $information['birth_day']);
             if(!$date)
@@ -45,13 +74,10 @@
 
         if (!count($errors))
         {
-            require_once "connection.php";
+            $sql = "UPDATE register
+                SET _name = ?, birth_day = ?, email = ?, _site = ?, children = ?, wage = ?
+                WHERE id = ?";
 
-            $sql = "INSERT INTO register
-                (_name, birth_day, email, _site, children, wage)
-                VALUES (?, ?, ?, ?, ?, ?)";
-
-            $connection = newConnection();
             $statement = $connection->prepare($sql);
 
             $params = [
@@ -60,10 +86,11 @@
                 $information['email'],
                 $information['_site'],
                 $information['children'],
-                $information['wage'] ? str_replace(',','.',$information['wage']) : null
+                $information['wage'] ? str_replace(",", ".", $information['wage']) : null,
+                $information['id']
             ];
 
-            $statement->bind_param("ssssid", ...$params);
+            $statement->bind_param("ssssidi", ...$params);
 
             if ($statement->execute())
             {
@@ -81,7 +108,23 @@
     </div>
 <?php endforeach ?>
 
+<form action="/exercice.php" method="get">
+    <input type="hidden" name="dir" value="db">
+    <input type="hidden" name="file" value="update">
+    <div class="form-group row">
+        <div class="col-sm-10">
+            <input type="number" name="code" class="form-control" value="<?= $_GET['code'] ?>" placeholder="Informe o código para consultar">
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-success mb-4">
+                Consultar
+            </button>
+        </div>
+    </div>
+</form>
+
 <form action="#" method="post">
+    <input type="hidden" name="id" value="<?= $information['id'] ?>">
     <div class="form-row">
         <div class="form-group col-md-8">
             <label for="_name">Nome</label>
@@ -91,8 +134,8 @@
             </div>
         </div>
         <div class="form-group col-md-4">
-            <label for="birth-day">Nascimento</label>
-            <input type="text" class="form-control <?= $errors['birth_day'] ? 'is-invalid' : '' ?>" id="birth-day" name="birth-day" placeholder="Nascimento" value="<?= $information['birth_day'] ?>">
+            <label for="birth_day">Nascimento</label>
+            <input type="text" class="form-control <?= $errors['birth_day'] ? 'is-invalid' : '' ?>" id="birth_day" name="birth_day" placeholder="Nascimento" value="<?= $information['birth_day'] ?>">
             <div class="invalid-feedback">
                 <?= $errors['birth_day'] ?>
             </div>
