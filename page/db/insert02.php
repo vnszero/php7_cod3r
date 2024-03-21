@@ -12,7 +12,7 @@
             $errors['_name'] = "Nome é Obrigatório";
         }
 
-        if(!isset($information['birth_day']))
+        if(isset($information['birth_day']))
         {
             $date = DateTime::createFromFormat('d/m/Y', $information['birth_day']);
             if(!$date)
@@ -91,8 +91,8 @@
             </div>
         </div>
         <div class="form-group col-md-4">
-            <label for="birth-day">Nascimento</label>
-            <input type="text" class="form-control <?= $errors['birth_day'] ? 'is-invalid' : '' ?>" id="birth-day" name="birth-day" placeholder="Nascimento" value="<?= $information['birth_day'] ?>">
+            <label for="birth_day">Nascimento</label>
+            <input type="text" class="form-control <?= $errors['birth_day'] ? 'is-invalid' : '' ?>" id="birth_day" name="birth_day" placeholder="Nascimento" value="<?= $information['birth_day'] ?>">
             <div class="invalid-feedback">
                 <?= $errors['birth_day'] ?>
             </div>

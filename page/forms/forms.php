@@ -14,12 +14,12 @@
             $errors['_name'] = "Nome é Obrigatório";
         }
 
-        if(filter_input(INPUT_POST, "birth-day"))
+        if(filter_input(INPUT_POST, "birth_day"))
         {
-            $date = DateTime::createFromFormat('d/m/Y', $_POST['birth-day']);
+            $date = DateTime::createFromFormat('d/m/Y', $_POST['birth_day']);
             if(!$date)
             {
-                $errors['birth-day'] = "Data deve estar no padrão dd/mm/aaaa";
+                $errors['birth_day'] = "Data deve estar no padrão dd/mm/aaaa";
             }
         }
 
@@ -63,10 +63,10 @@
             </div>
         </div>
         <div class="form-group col-md-4">
-            <label for="birth-day">Nascimento</label>
-            <input type="text" class="form-control <?= $errors['birth-day'] ? 'is-invalid' : '' ?>" id="birth-day" name="birth-day" placeholder="Nascimento" value="<?= $_POST['birth-day'] ?>">
+            <label for="birth_day">Nascimento</label>
+            <input type="text" class="form-control <?= $errors['birth_day'] ? 'is-invalid' : '' ?>" id="birth_day" name="birth_day" placeholder="Nascimento" value="<?= $_POST['birth_day'] ?>">
             <div class="invalid-feedback">
-                <?= $errors['birth-day'] ?>
+                <?= $errors['birth_day'] ?>
             </div>
         </div>
     </div>
