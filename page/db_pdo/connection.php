@@ -18,5 +18,4 @@
     }
 
     newConnection();
-    echo "Fim!!!";
 ?>

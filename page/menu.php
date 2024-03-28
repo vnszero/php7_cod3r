@@ -1,6 +1,15 @@
 <nav class="modules">
     <div class="module green">
-        <h3>15. Banco de Dados</h3>
+        <h3>16. Banco de Dados PDO</h3>
+        <ul>
+            <li><a href="exercice.php?dir=db_pdo&file=insert">Inserir Registro</a></li>
+            <li><a href="exercice.php?dir=db_pdo&file=search">Buscar Registro</a></li>
+            <li><a href="exercice.php?dir=db_pdo&file=delete">Deletar Registro</a></li>
+            <li><a href="exercice.php?dir=db_pdo&file=update">Alterar Registro</a></li>
+        </ul>
+    </div>
+    <div class="module green">
+        <h3>15. Banco de Dados MySQLi</h3>
         <ul>
             <li><a href="exercice.php?dir=db&file=create_database">Criar Banco</a></li>
             <li><a href="exercice.php?dir=db&file=create_table">Criar Tabela</a></li>
