@@ -1,5 +1,11 @@
 <nav class="modules">
     <div class="module green">
+        <h3>18. MVC</h3>
+        <ul>
+            <li><a href="exercice.php?dir=sql&file=get_select">Construindo Select</a></li>
+        </ul>
+    </div>
+    <div class="module green">
         <h3>17. MVC</h3>
         <ul>
             <li><a href="exercice.php?dir=mvc&file=basics">Fundamentos</a></li>
