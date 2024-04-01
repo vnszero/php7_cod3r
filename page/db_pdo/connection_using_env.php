@@ -14,6 +14,16 @@
                 die('Erro: ' . $e->getMessage());
             }          
         }
+
+        public static function getResultFromQuery($sql) {
+            $connection = self::getConnection();
+            $result = $connection->query($sql);
+            
+            // close connection
+            $connection = null;
+            
+            return $result;
+        }
     }
 
 ?>
