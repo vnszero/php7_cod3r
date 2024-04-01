@@ -100,6 +100,8 @@
             <li><a href="exercice.php?dir=classes_objects&file=traits_02">Traits #02</a></li>
             <li><a href="exercice.php?dir=classes_objects&file=magic_methods">Métodos Mágicos</a></li>
             <li><a href="exercice.php?dir=classes_objects&file=polymorphism">Polimorfismo</a></li>
+            <li><a href="exercice.php?dir=classes_objects&file=getter_setter_bad_way">Getter e Setter hardcode</a></li>
+            <li><a href="exercice.php?dir=classes_objects&file=getter_setter_best_way">Getter e Setter built-in</a></li>
         </ul>
     </div>
     <div class="module green">
